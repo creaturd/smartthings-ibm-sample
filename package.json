@@ -1,0 +1,24 @@
+{
+  "name": "smartthings-ibm-sample",
+  "version": "1.0.0",
+  "description": "SmartThings Sample Switch",
+  "main": "index.js",
+  "engines": {
+    "node": "12.3.1",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "SmartThings-Sample-Switch"
+  ],
+  "author": "SRR",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "st-schema": "^1.0.5",
+    "mqtt": "^3.0.0"
+  }
+}

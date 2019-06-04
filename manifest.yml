@@ -1,0 +1,5 @@
+---
+applications:
+ - name: SmartThingsIBMCloudSample
+   random-route: true
+   memory: 64M

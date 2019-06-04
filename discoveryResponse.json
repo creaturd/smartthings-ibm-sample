@@ -1,0 +1,21 @@
+{
+    "headers": {
+        "schema": "st-schema",
+        "version": "1.0",
+        "interactionType": "discoveryResponse",
+        "requestId": "111abc-123-456"
+    },
+    "devices": [
+      {
+            "externalDeviceId": "smartthings-ibm-switch",
+            "friendlyName": "I am Switch!",
+            "deviceHandlerType": "c2c-dimmer",
+            "manufacturerInfo": {
+                "manufacturerName": "SRR",
+                "modelName": "SRR Sample Switch",
+                "hwVersion": "v0.02",
+                "swVersion": "1.2.4"
+            }
+        }
+    ]
+}
