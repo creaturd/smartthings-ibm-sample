@@ -44,7 +44,7 @@ function commandRequest(requestId, devices) {
   let response = new CommandResponse(requestId)
   devices.map(({ externalDeviceId, deviceCookie, commands }) => {
 
-   	const device = response.addDevice(externalDeviceId, deviceCookie);
+   	const device = response.addDevice(externalDeviceId);
     	stPartnerHelper.mapSTCommandsToState(device, commands);
 
 	var message = JSON.stringify(commands);
